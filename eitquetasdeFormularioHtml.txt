@@ -1,0 +1,20 @@
+<form>
+                <fieldset>
+                    <legend> <b>Datos personales </b> </legend>
+                    <label>Edad</label>
+                    <input type="number" placeholder="Ingresa tu edad"> <!--Las etiquetas de html contienen propiedas y estas se indican con "type", en este caso el input solo va recibir strings numericos-->  <br/>
+                    <label>Contraseña</label>
+                    <input type="password" placeholder="Tu contreseña no se vera"> <br/>
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Ingresa tu nombre"> <br />
+                    <input type="submit" value="Acepta"> <!--Se utiliza "value para indicar el texto que va tener en el boton"--> <br />
+                    <hr/>
+                    <textarea></textarea> <!--Se utiliza textarea para ingresa cometnarios que contengan mucho texto--> <br />
+                    <button>Aceptar</button>
+                    <select>
+                        <option value="negro">Negro</option>
+                        <option value="azul">Azul</option>
+                        <option value="rojo">Rojo</option>
+                    </select>
+                </fieldset>
+</form>

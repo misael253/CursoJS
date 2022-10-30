@@ -1,0 +1,24 @@
+        <table>
+            <thead> <!--Cabecera de la tabla-->
+                <tr> <!--indica las filas-->
+                    <th>Mes</th> <!--indica el contenido de la tabla-->
+                    <th>Ahorros</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Enero</td> <!--Cuantas celdas va tener-->
+                    <td>1000$</td>
+                </tr>
+                <tr>
+                    <td>Febrero</td> <!--Cuantas celdas va tener-->
+                    <td>500$</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Suma total</td>
+                    <td>1500$</td>
+                </tr>                
+            </tfoot>
+        </table>
